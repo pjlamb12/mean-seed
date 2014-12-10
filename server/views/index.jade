@@ -9,11 +9,13 @@ block main-content
 					span.icon-bar
 					span.icon-bar
 					span.icon-bar
-				a.navbar-brand(href="/") MEAN Seed
+				a.navbar-brand(ui-sref="home") MEAN Seed
 			.navbar-collapse.collapse
 				ul.nav.navbar-nav
-					li
-						a(href="/") Home
+					li(ng-class="{active: $state.includes('view1')}")
+						a(ui-sref="view1") View 1
+					li(ng-class="{active: $state.includes('view2')}")
+						a(ui-sref="view2") View 2
 	section.content
 		div(ui-view)
 
