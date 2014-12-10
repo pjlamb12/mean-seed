@@ -1,10 +1,10 @@
-angular.module('myApp.home',
-	['myApp',])
+angular.module('app.home',
+	['app',])
 .config(function($stateProvider){
 	$stateProvider
 		.state('home',{
 			url: '/',
-			templateUrl: 'js/home/home.html',
+			templateUrl: '/partials/home/home',
 			controller: 'HomeController'
 		});
 })
