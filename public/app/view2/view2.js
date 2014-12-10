@@ -1,10 +1,10 @@
-angular.module('myApp.view2',
-	['myApp',])
+angular.module('app.view2',
+	['app',])
 .config(function($stateProvider){
 	$stateProvider
 		.state('view2',{
 			url: '/view2',
-			templateUrl: 'js/view2/view2.html',
+			templateUrl: '/partials/view2/view2',
 			controller: 'View2Controller'
 		});
 })

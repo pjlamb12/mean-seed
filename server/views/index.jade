@@ -16,6 +16,12 @@ block main-content
 						a(ui-sref="view1") View 1
 					li(ng-class="{active: $state.includes('view2')}")
 						a(ui-sref="view2") View 2
+					li(ng-class="{active: $state.includes('nested')}")
+						a(href="", data-toggle="dropdown").dropdown-toggle Nested
+							b.caret
+						ul.dropdown-menu
+							li
+								a(ui-sref="nested.nested1") Nested 1
 	section.content
 		div(ui-view)
 

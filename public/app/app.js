@@ -3,7 +3,10 @@
 var app = angular.module('app', [
 	'ui.router',
 	'app.home',
-	'app.view1'
+	'app.view1',
+	'app.view2',
+	'app.nested',
+	'app.nested.nested1'
 ]);
 
 app.run(['$rootScope', '$state', '$stateParams', function($rootScope, $state, $stateParams) {

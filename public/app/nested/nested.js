@@ -1,13 +1,13 @@
-angular.module('myApp.nested',
+angular.module('app.nested',
 	[
-		'myApp',
-		'myApp.nested.nested1'
+		'app',
+		'app.nested.nested1'
 	])
 .config(function($stateProvider){
 	$stateProvider
 		.state('nested',{
 			abstract: true,
 			url: '/nested',
-			templateUrl: 'js/nested/nested.html',
+			templateUrl: '/partials/nested/nested',
 		});
 });
