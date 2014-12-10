@@ -10,11 +10,11 @@ var app = angular.module('app', [
 ]);
 
 app.run(['$rootScope', '$state', '$stateParams', function($rootScope, $state, $stateParams) {
-
 	$rootScope.$state = $state;
 	$rootScope.$stateParams = $stateParams;
 }]);
 
-app.config(function($urlRouterProvider) {
+app.config(function($urlRouterProvider, $locationProvider) {
+	$locationProvider.html5Mode(true);
 	$urlRouterProvider.otherwise('/');
 });
