@@ -4,7 +4,7 @@ angular.module('app.view1',
 	$stateProvider
 		.state('view1',{
 			url: '/view1',
-			templateUrl: '/partials/view1/view1.jade',
+			templateUrl: '/partials/view1/view1',
 			controller: 'View1Controller'
 		});
 })
