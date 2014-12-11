@@ -1,28 +1,23 @@
 {
-  "name": "MultiVision",
+  "name": "MEAN-Seed",
   "version": "0.0.0",
-  "description": "Extreme Tech Training",
+  "description": "MEAN stack seed project",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "engines": {
     "node": "0.10.x",
     "npm": "2.1.x"
   },
-  "author": "Preston Lamb",
-  "license": "MIT",
   "dependencies": {
-    "body-parser": "~1.2.0",
-    "cookie-parser": "^1.3.3",
-    "express": "~4.2.0",
+    "body-parser": "^1.2.2",
+    "jade": "^1.3.1",
+    "mongoose": "^3.8.20",
+    "express": "^4.2.0",
+    "morgan": "^1.0.1",
     "express-session": "^1.9.3",
-    "jade": "~1.3.1",
-    "mongoose": "^3.8.11",
-    "morgan": "~1.0.1",
-    "passport": "^0.2.1",
     "passport-local": "^1.0.0",
-    "stylus": "~0.45.0"
+    "passport": "^0.2.1",
+    "cookie-parser": "^1.3.3",
+    "stylus": "^0.45.1"
   },
   "devDependencies": {
     "karma": "^0.12.28",
@@ -30,5 +25,19 @@
     "karma-chrome-launcher": "^0.1.7",
     "karma-mocha": "^0.1.10",
     "mocha": "^2.0.1"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && bower install; node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pjlamb12/mean-seed.git"
+  },
+  "author": "Preston Lamb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pjlamb12/mean-seed/issues"
+  },
+  "homepage": "https://github.com/pjlamb12/mean-seed"
 }
