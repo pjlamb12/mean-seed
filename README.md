@@ -2,8 +2,11 @@
 
 ##Description
 This project is my own MEAN stack seed project to get started with MEAN web apps quickly and efficiently.
+
 The AngularJS portion is taken from my own [AngularJS Seed project](https://github.com/pjlamb12/angular-base/tree/ui-router), ui-router branch.
+
 AngularJS comes with angular-bootstrap, angular-ui-router, bootstrap, jquery, angular-resource, and toastr.
+
 Passport, passport-local, mongoose, and express all come pre-loaded as well.
 
 ##Starting
