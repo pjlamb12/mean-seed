@@ -1,10 +1,10 @@
 {
-  "name": "MultiVision",
+  "name": "My Pantry",
   "version": "0.0.0",
   "authors": [
-    "Preston Lamb <plamb@axis41.com>"
+    "Preston Lamb <preston.j.lamb@gmail.com>"
   ],
-  "description": "\"Extreme Tech Training\"",
+  "description": "\"Pantry Inventory App\"",
   "license": "MIT",
   "ignore": [
     "**/.*",
